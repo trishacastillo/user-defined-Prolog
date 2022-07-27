@@ -1,4 +1,5 @@
 even_odd([], [], []).
+even_odd([]).
 
 even_odd([H|T], [H|OddList], Even) :-
 1 is H mod 2,
